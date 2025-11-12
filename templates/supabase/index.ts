@@ -10,7 +10,7 @@ export function generate(input: Input): Output {
       serviceName: input.serviceName,
       source: {
         type: "git",
-        repo: "https://github.com/easypanel-io/compose.git",
+        repo: "https://github.com/LordCortes/compose.git",
         ref: "28-08-2025",
         rootPath: "/supabase/code",
         composeFile: "docker-compose.yml",
